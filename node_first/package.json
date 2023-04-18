@@ -1,0 +1,15 @@
+{
+  "name": "Threye Interactive",
+  "version": "1.0.0",
+  "description": "Node Basics from Thapa Technical",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=spec --timeout=15000 --grep=.spec.js --reporter=spec"
+  },
+  "author": "Pankaj Kannavedia",
+  "license": "ICS",
+
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "expressjswork",
+  "version": "1.0.0",
+  "description": "Express JS Youtube Video",
+  "main": "ExpServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Kannavedia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
