@@ -4,8 +4,9 @@ const port = 3000;
 
 app.get("/", function (req, res) {
 
-    res.send("Helletgoijpoeo World");
+    res.send("Hello World");
+    console.log("res",res)
 });
-app.listen(3000, function (req, res) {
+app.listen(port, function (req, res) {
     console.log("Server is running at port no. 3000")
 });
