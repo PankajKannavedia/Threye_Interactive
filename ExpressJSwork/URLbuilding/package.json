@@ -1,0 +1,11 @@
+{
+  "name": "urlbuilding",
+  "version": "1.0.0",
+  "description": "URL Related package",
+  "main": "urlbuilding.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Kannavedia",
+  "license": "MIT"
+}
