@@ -15,7 +15,6 @@ app.get('/about', function(req,res){
     console.log("Printing Contact")
 });
 
-    
 app.post('/hello', function(req,res){
     res.send('Hello POST World!');
     console.log("Printing Hello POST world ")
