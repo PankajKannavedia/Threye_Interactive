@@ -1,0 +1,12 @@
+{
+  "name": "static_website",
+  "version": "1.0.0",
+  "description": "This is an static website that contains several pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Pankaj Kannavedia",
+  "license": "MIT"
+}

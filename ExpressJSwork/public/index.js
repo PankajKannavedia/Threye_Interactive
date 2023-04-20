@@ -1,7 +1,11 @@
+const path = require('path');
 var express = require(`express`);
 var app = express();
 const port = 3000;
-
+//Relative Absolute
+const filePath = path.join(__dirname,"../public")
+//build-in middleware
+app.use(express.static(filePath));
 app.get('/', function (req, res) {
     res.write('<h1>HEY <br>Welcome to Hompage </h1>')
     res.write('<h2>I am <b><i>Pankaj Kannavedia</i></b></h2>')
