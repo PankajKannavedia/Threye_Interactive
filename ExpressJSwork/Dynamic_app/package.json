@@ -1,0 +1,16 @@
+{
+  "name": "dynamic_app",
+  "version": "1.0.0",
+  "description": "This is an dynamic app that contains several pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Pankaj Kannavedia",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express-handlebars": "^7.0.7"
+  }
+}
